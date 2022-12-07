@@ -4,6 +4,10 @@ import './index.css'
 // import './pics'
 
 function App() {
+  
+  useEffect(()=>{
+  document.title = "BMI Calculator App"
+  },[])
 
   // state to be taken care of
   const[weight, setWeight] = useState(0);
